@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+form {
+
+    margin: 60px auto;
+    width: 350px;
+}
+
+input,select,textarea {
+    width: 100%;
+    background-color:rgb(215, 210, 210) ;
+    size: 30 px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    resize: none;
+
+}
+ 
+label {
+    font-size: 20px;
+    color: black
+}
+
+
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px; 
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+button:hover {
+
+    background-color: orange;
+    cursor: pointer;
+    
+}
+
+.select {
+    background-color: white;
+}
+
+.option-select {
+    background-color: whitesmoke;
+}
+
+.container {
+    
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px black;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+ .Sumbit {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20Spx;
+ }
