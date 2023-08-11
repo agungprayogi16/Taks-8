@@ -1,0 +1,10 @@
+/** @format */
+
+.container-blog-detail {
+  width: 1000px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+}
+body {
+  background-color: blanchedalmond;
+}

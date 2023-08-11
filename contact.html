@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Taks 3 contact Agung prayogi purba</title>
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="icon" href="image/WhatsApp Image 2023-06-11 at 09.44.54.jpeg">
-  </head>
-  <body>
-   
-    <nav>
-        <div class="nav-left">
 
-            <ul>
-                <li>
-                    <img src="image/logo-removebg-preview.png" alt="logo">
-                </li>
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-right">
-              <a href="contact.html">
-            <p>Contact</p>    
-            </a>
-        </div>
-    </nav>
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Taks 4 contact Agung prayogi purba</title>
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="icon" href="image/WhatsApp Image 2023-06-11 at 09.44.54.jpeg">
+</head>
 
-        <form id="myFrom">
-          <h1 style="display: flex;align-items: center;
-          text-align: center;margin-bottom: 20px;">GET IN TOUCH</h1>
-          <div>
-            <label for="input-name">Name</label>
-            <input id="input-name" type="text" required />
-          </div>
-          <div>
-            <label for="input-email">Email</label>
-            <input id="input-email" type="email" required />
-          </div>
-          <div>
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" id="phone-number" required />
-          </div>
-          <div>
-            <label for="input-subject">subject</label>
-            <select name="" id="input-subject">
-              <option class="option-select" value="" hidden >Select</option>
-              <option class="option-select">Frontend</option>
-              <option class="option-select">Backend</option>
-              <option class="option-select">Fullstack</option>
-            </select>
-          </div>
-          <div>
-            <label for="input-message">Message</label>
-            <textarea name="" id="input-message" cols="30" rows="10"></textarea>
-          </div>
-          <div class="Sumbit">
-            <button type="button" onclick="submitHandler()">Sumbit</button>
-          </div>
-        </form>
+<body>
+
+  <nav>
+    <div class="nav-left">
+
+      <ul>
+        <li>
+          <img src="image/logo-removebg-preview.png" alt="logo">
+        </li>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="blog.html">My BLOG</a>
+        </li>
+      </ul>
     </div>
-    <script src="script/script.js"></script>
-  </body>
+    <div class="nav-right active-contact">
+      <a href="contact.html">
+        <p>Contact</p>
+      </a>
+    </div>
+  </nav>
+  <div class="container">
+
+    <form id="myFrom">
+      <h1 style="display: flex;align-items: center;
+          text-align: center;margin-bottom: 20px;">GET IN TOUCH</h1>
+      <div>
+        <label for="input-name">Name</label>
+        <input id="input-name" type="text" required />
+      </div>
+      <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" type="email" required />
+      </div>
+      <div>
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" id="phone-number" required />
+      </div>
+      <div>
+        <label for="input-subject">subject</label>
+        <select name="" id="input-subject">
+          <option class="option-select" value="" hidden>Select</option>
+          <option class="option-select">Frontend</option>
+          <option class="option-select">Backend</option>
+          <option class="option-select">Fullstack</option>
+        </select>
+      </div>
+      <div>
+        <label for="input-message">Message</label>
+        <textarea name="" id="input-message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="Sumbit">
+        <button type="button" onclick="submitHandler()">Sumbit</button>
+      </div>
+    </form>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
 </html>
