@@ -6,6 +6,10 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  background-color: transparent;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1690221065159-1de014122f87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
 }
 
 input,
@@ -34,8 +38,9 @@ textarea {
   background-color: #e3e7eb;
   width: 450px;
   border-radius: 10px;
-  border: 1px solid #f2f2f2;
-  box-shadow: 0px 0px 15px black;
+  border: none;
+  background-color: transparent;
+  color: white;
 }
 
 .project-container {
@@ -43,6 +48,7 @@ textarea {
   justify-content: center;
   align-items: center;
   margin: 100px;
+  background-color: transparent;
 }
 
 .form-detail {
@@ -217,11 +223,16 @@ hr {
   flex-direction: column;
 }
 
+.form-detail input {
+  background-color: whitesmoke;
+  color: black;
+}
+
 /* list, card dan project */
 
 .list-project-wrapper {
   padding: 70px;
-  background-color: #e3e7eb;
+  background-color: white;
 }
 
 .list-project-wrapper h1 {
@@ -342,10 +353,11 @@ hr {
 .container-blog-detail .card {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
-  padding: 10px 10px;
+  background-color: transparent;
+  padding: 5px 5px;
   width: 350px;
   border-radius: 5px;
+  color: white;
 }
 .container-blog-detail .card:hover {
   scale: 1.1;
