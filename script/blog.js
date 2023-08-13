@@ -81,7 +81,7 @@ function addProjectData(event) {
   let end = new Date(endDate);
 
   if (start > end) {
-    return alert("Please Put Date Correctly");
+    return alert("Tanggl awal Tidak boleh lebih besar Dari Tanggal akhir");
   }
 
   let timeDifference = end.getTime() - start.getTime();
