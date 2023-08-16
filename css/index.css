@@ -1,0 +1,17 @@
+/** @format */
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+
+  .item-collapse {
+    display: none;
+  }
+}

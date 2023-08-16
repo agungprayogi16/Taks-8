@@ -11,6 +11,7 @@
   <link rel="icon" href="image/WhatsApp Image 2023-06-11 at 09.44.54.jpeg" />
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/tambahan.css">
+  <link rel="stylesheet" href="css/index.css">
 
 </head>
 
@@ -23,20 +24,32 @@
         <li>
           <img src="image/logo-removebg-preview.png" alt="logo" />
         </li>
-        <li>
-          <a href="index.html" class="active">HOME</a>
+        <li class="item-collapse">
+          <a href="index.html" class="active">Home</a>
         </li>
-        <li>
-          <a href="blog.html">My BLOG</a>
+        <li class="item-collapse">
+          <a href="blog.html">Blog</a>
         </li>
       </ul>
     </div>
-    <div class="nav-right">
-      <a href="contact.html">
-        <p>Contact</p>
-      </a>
+
+    <div class="nav-right item-collapse">
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="nav-right" id="barsmenu">
+      <button style="background-color: transparent; border: none; cursor: pointer" onclick="openHamburger();">
+        <i class="fa-2x fa-solid fa-bars" style="display: flex;justify-content: end;"></i>
+      </button>
     </div>
   </nav>
+
+  <div class="hamburger-nav-container" id="hamburger-nav-container">
+    <a href="index.html" class="hamburger-active">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
   <h1 style="font-size: 60px; text-align: center;color: white;">Hello guys</h1>
   <div style="
         width: 600px;
@@ -92,6 +105,7 @@
       </div>
     </div>
   </div>
+  <script src="script/index.js"></script>
 </body>
 
 </html>

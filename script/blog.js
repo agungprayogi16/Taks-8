@@ -57,7 +57,8 @@ function addProjectData(event) {
   const python = document.getElementById("python");
   const javaScript = document.getElementById("javaScript");
 
-  // IBARATNYA SI ICON SET INI NYIAPIN 1 KOTAK BUAT PARA ICON DIATAS KETIKA DI CEKLIS
+  //  SI ICON SET INI NYIAPIN 1 KOTAK BUAT PARA ICON DIATAS KETIKA DI CEKLIS AKAN MENGAMABIL DATA
+
   let iconSet = "";
 
   // VALIDASI IKON
@@ -123,6 +124,8 @@ function addProjectData(event) {
 
   renderProjectCard();
 }
+
+// Menapilkan Data Mengnna kn for
 
 function renderProjectCard() {
   let projectContainer = document.getElementById("list-project-container");

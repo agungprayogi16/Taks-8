@@ -16,30 +16,40 @@
 <body>
   <nav>
     <div class="nav-left">
-
       <ul>
         <li>
-          <img src="image/logo-removebg-preview.png" alt="logo" a>
+          <img src="image/logo-removebg-preview.png" alt="logo" />
         </li>
-        <li>
-          <a href="index.html">HOME</a>
+        <li class="item-collapse">
+          <a href="index.html" class="active">Home</a>
         </li>
-        <li>
-          <a href="blog.html">My BLOG</a>
+        <li class="item-collapse">
+          <a href="blog.html">Blog</a>
         </li>
       </ul>
     </div>
+
     <div class="nav-right">
-      <a href="contact.html">
-        <p>Contact</p>
-      </a>
+      <a href="contact.html" class="item-collapse">Contact</a>
+    </div>
+
+    <div class="nav-right" id="barsmenu">
+      <button style="background-color: transparent; border: none; cursor: pointer" onclick="openHamburger();">
+        <i class="fa-2x fa-solid fa-bars"></i>
+      </button>
     </div>
   </nav>
+
+  <div class="hamburger-nav-container" id="hamburger-nav-container">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
 
   <div class="container-blog-detail">
     <h1 style="text-align: center;margin-bottom: 20px;padding-top: 20px; color: white;"> Web App Gue guys</h1>
     <!--  blog -->
-    <div style="display: flex; gap: 30px;">
+    <div class="item-container-card">
       <div style="flex: 70%;height: 500px; padding-left: 15px;">
         <img src="/image/memakai-topi.webp" alt=""
           style="width: 100%; height: 100%;object-fit: fill;border-radius: 10px;">
@@ -105,6 +115,7 @@
     </div>
 
   </div>
+  <script src="script/index.js"></script>
 </body>
 
 </html>

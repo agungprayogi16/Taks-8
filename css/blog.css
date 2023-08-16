@@ -11,7 +11,55 @@
 body {
   background-image: url(https://images.unsplash.com/photo-1690221065159-1de014122f87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
 }
+@media screen and (max-width: 900px) {
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+  }
 
+  .container-blog-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: transparent;
+    resize: none;
+  }
+
+  .container-blog-detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+    resize: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+}
 input,
 textarea {
   background-color: white;
@@ -21,6 +69,7 @@ textarea {
   border-radius: 5px;
   border: 1px solid #dbdbdb;
   box-shadow: 0 0 3px #dbdbdb;
+  resize: none;
 }
 
 .form-container div {
@@ -47,7 +96,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 0p auto;
   background-color: transparent;
 }
 
