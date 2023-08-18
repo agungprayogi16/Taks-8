@@ -69,8 +69,8 @@ const testimonial1 = new AuthorTestimonial(
 );
 
 const testimonial2 = new AuthorTestimonial(
-  "Cintara Surya",
-  "Keren lah pokoknya",
+  "handsome boy",
+  "Hitam manis",
   "https://plus.unsplash.com/premium_photo-1687187499404-2ed3c77b3cfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8Mjk2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
 );
 
