@@ -51,19 +51,44 @@
         <a href="testimoni.html" class="hamburger-active">Testimoni</a>
     </div>
     <div>
+        <div></div>
         <div class="container-testimonial">
             <div class="testimonial-title">
                 <h1>My Testimonial</h1>
+                <h1>Rating </h3>
+                    <div class="rating-testimonial">
+                        <button onclick="ratingAll()">All
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                        <button onclick="selectRating(1)">1
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                        <button onclick="selectRating(2)">2
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                        <button onclick="selectRating(3)">3
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                        <button onclick="selectRating(4)">4
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                        <button onclick="selectRating(5)">5
+                            <i class="fa-solid fa-star"></i>
+                        </button>
+                    </div>
 
 
             </div>
+        </div>
+        <div id="not-found">
+
         </div>
         <div class="testimonials" id="testimonials">
 
         </div>
     </div>
-    <script src="script/index.js"></script>
-    <script src="script/testimoni.js"></script>
+    <script src="js/testimoni.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
