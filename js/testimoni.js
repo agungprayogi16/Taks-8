@@ -38,14 +38,10 @@ function ratingAll() {
     ratingAllHtml += `
     <div class="testimonial">
          <img src="${rating.image}" class="profile-testimonial" />
-         <p class="quote">
-         ${rating.quote}
-         </p>
          <p class="author">- ${rating.author}</p>
-         </p>
+         <p class="quote">${rating.quote}</p>
          <p class="rating"> ${rating.rating}
          <i class="fa-solid fa-star"></i>
-         </p>
      </div>
     `;
   });
